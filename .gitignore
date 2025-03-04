@@ -1,17 +1,24 @@
-#Personal for use
-/YoutubeDownloader/nbproject/private/
-/YoutubeDownloader/build/
-/YoutubeDownloader/dist/
-/source/build/
-/Oal/nbproject/private/
-/Oal/build/
-/source/dist/YoutubeDownloader/
-/YoutubeDownloader/Oal/
-*.bat
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
 
-#pycache
-*.pyc
-__pycache__
+node_modules
+dist
+dist-ssr
+*.local
 
-#Rust
-/target
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
